@@ -1,4 +1,26 @@
-body {margin:0;}
+h1 {
+    text-align: center;
+    background-color: black; 
+    color: whitesmoke;
+    margin-top: 0px;
+    padding-top:42px;
+    padding-bottom: 42px;
+    margin-bottom: 0px;
+}
+hr{
+    margin-top:0px;
+    border-color: skyblue; 
+}
+body {
+    margin: 0;
+    background-color: black ;
+    color:whitesmoke;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.nav { 
+    margin-bottom: 46px;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,14 +45,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: skyblue;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: skyblue;
 }
 
 
-body{
-    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-}
