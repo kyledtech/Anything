@@ -6,7 +6,7 @@ h1 {
     padding-top:42px;
     padding-bottom: 42px;
     margin-bottom: 0px;
-   # font-weight: normal;
+    font-weight: normal;
 }
 hr{
     margin-top:0px;
@@ -53,4 +53,13 @@ li a:hover:not(.active) {
     background-color: skyblue;
 }
 
+.logo {
+    width: 45px;
+    height: 45px;
 
+}
+
+.logo-box {
+    float: right;
+    background-color: white;
+}
