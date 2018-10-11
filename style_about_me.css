@@ -1,3 +1,7 @@
+hr{
+    margin-top:48px;
+    border-color: skyblue; 
+}
 h1 {
     text-align: center;
     background-color: black; 
@@ -8,23 +12,21 @@ h1 {
     margin-bottom: 0px;
     font-weight: normal;
 }
-hr{
-    margin-top:0px;
-    border-color: skyblue; 
-}
 body {
     margin: 0;
     background-color: black ;
     color:whitesmoke;
     font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
-
+img {
+   # padding-left: 100px;
+}
 .nav { 
     margin-bottom: 46px;
 }
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -41,7 +43,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
 }
 
@@ -61,5 +63,8 @@ li a:hover:not(.active) {
 
 .logo-box {
     float: right;
-    background-color: white;
+    background-color:whitesmoke;
+    margin-right: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
