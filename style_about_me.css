@@ -18,9 +18,13 @@ body {
     color:whitesmoke;
     font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
-img {
-   # padding-left: 100px;
+.dtech-logo-box {
+    align-content: center;
+    border: 5px solid red;
+    width: 300px;
+    text-align: center;
 }
+
 .nav { 
     margin-bottom: 46px;
 }
